@@ -33,7 +33,7 @@ const BlockedComponent = () => {
             </li>
             <li>You violated our terms of service.</li>
             <li>Your account has been flagged for suspicious activities.</li>
-            <li>Mujhe aapki shakal achchi nhi lagi.</li>
+            <li>There was a violation of our community guidelines.</li>
             <li>You were sharing your credentials and cookies unethically.</li>
           </ul>
         </BlurFade>

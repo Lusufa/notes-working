@@ -9,7 +9,7 @@ export default function page() {
       <section className="space-y-4">
         <h2 className="text-xl font-semibold">Introduction</h2>
         <p>
-          At Notes Buddy, we are committed to your satisfaction with our
+          At Noterious, we are committed to your satisfaction with our
           educational resources. This policy outlines our stance on returns and
           refunds.
         </p>
@@ -19,7 +19,7 @@ export default function page() {
         <h3 className="text-lg font-medium">No Return or Refund Policy</h3>
         <p>
           Due to the digital nature of our products,{" "}
-          <strong>Notes Buddy does not offer returns or refunds.</strong>
+          <strong>Noterious does not offer returns or refunds.</strong>
         </p>
         <p>
           We ensure that all resources meet your expectations and provide
@@ -33,10 +33,10 @@ export default function page() {
           If you have any questions or concerns, feel free to contact us via:
         </p>
         <address className="pl-4">
-          <p>Notes Buddy</p>
+          <p>Noterious</p>
           <p>39, Ram Nivas Vijay Nagar Main Road, Indore 452010</p>
 
-          <p>Email: support@notesbuddy.com</p>
+          <p>Email: support@noterious.com</p>
         </address>
       </section>
     </div>

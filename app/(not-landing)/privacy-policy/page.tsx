@@ -8,10 +8,10 @@ export default function page() {
 
       <section className="mb-6">
         <h2 className="text-xl font-semibold mb-2">
-          Privacy Policy for Notes Buddy
+          Privacy Policy for Noterious
         </h2>
         <p>
-          Welcome to Notes Buddy. If you have any questions or concerns about
+          Welcome to Noterious. If you have any questions or concerns about
           our policy or our practices regarding your personal information,
           please contact us.
         </p>

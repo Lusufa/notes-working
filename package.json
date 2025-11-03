@@ -3,15 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "set NODE_OPTIONS=--no-deprecation && next dev --turbo",
+    "dev": "velite && set NODE_OPTIONS=--no-deprecation && next dev --turbo",
     "build:scripts": "tsc -p tsconfig.scripts.json",
     "generate-sitemap": "pnpm build:scripts && node dist-scripts/generate-sitemap.js",
-    "build": "pnpm generate-sitemap && next build",
+    "build": "velite && pnpm generate-sitemap && next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
-    "@monaco-editor/react": "^4.6.0",
+    "@monaco-editor/react": "^4.7.0",
     "@motionone/utils": "^10.18.0",
     "@next-auth/mongodb-adapter": "^1.1.3",
     "@next/third-parties": "^15.1.5",
@@ -27,7 +27,6 @@
     "@tsparticles/engine": "^3.7.1",
     "@tsparticles/react": "^3.0.0",
     "@tsparticles/slim": "^3.7.1",
-    "@types/mongoose": "^5.11.97",
     "@types/xlsx": "^0.0.35",
     "@vercel/analytics": "^1.4.1",
     "@vercel/speed-insights": "^1.1.0",
@@ -55,7 +54,7 @@
     "next": "^14.2.33",
     "next-auth": "^4.24.11",
     "next-themes": "^0.2.1",
-    "razorpay": "^2.9.5",
+    "razorpay": "^2.9.6",
     "react": "^18.2.0",
     "react-chartjs-2": "^5.3.0",
     "react-dom": "^18.2.0",
@@ -76,7 +75,6 @@
     "@tailwindcss/typography": "^0.5.10",
     "@types/canvas-confetti": "^1.9.0",
     "@types/js-cookie": "^3.0.6",
-    "@types/next-auth": "^3.15.0",
     "@types/node": "^20.11.24",
     "@types/react": "^18.2.63",
     "@types/react-dom": "^18.2.20",
@@ -93,5 +91,18 @@
     "typescript": "^5.3.3",
     "velite": "^0.3.0"
   },
-  "packageManager": "pnpm@9.15.4+sha512.b2dc20e2fc72b3e18848459b37359a32064663e5627a51e4c74b2c29dd8e8e0491483c3abb40789cfd578bf362fb6ba8261b05f0387d76792ed6e23ea3b1b6a0"
+  "packageManager": "pnpm@9.15.4+sha512.b2dc20e2fc72b3e18848459b37359a32064663e5627a51e4c74b2c29dd8e8e0491483c3abb40789cfd578bf362fb6ba8261b05f0387d76792ed6e23ea3b1b6a0",
+  "pnpm": {
+    "overrides": {
+      "form-data": "4.0.4",
+      "braces": "3.0.3",
+      "axios": "1.8.2",
+      "cross-spawn": "7.0.5",
+      "micromatch": "4.0.8",
+      "nanoid": "3.3.8",
+      "@babel/runtime": "7.26.10",
+      "next-auth": "4.24.12",
+      "brace-expansion": "2.0.2"
+    }
+  }
 }

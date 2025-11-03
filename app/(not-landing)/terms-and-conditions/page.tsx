@@ -7,10 +7,10 @@ export default function Page() {
       <p className="text-sm italic mb-6">Last updated: Jan 18, 2025</p>
 
       <section className="mb-6">
-        <h2 className="text-xl font-semibold mb-2">Welcome to Notes Buddy</h2>
+        <h2 className="text-xl font-semibold mb-2">Welcome to Noterious</h2>
         <p>
           These terms and conditions outline the rules and regulations for the
-          use of Notes Buddy’s website and services. By accessing or using our
+          use of Noterious’s website and services. By accessing or using our
           website, you agree to these terms in full. If you do not accept all
           the terms and conditions, please refrain from using our services.
         </p>
@@ -21,7 +21,7 @@ export default function Page() {
         <p>
           To access certain features, you may need to create an account. You
           agree to provide accurate and complete information and are responsible
-          for safeguarding your account credentials. Notes Buddy is not liable
+          for safeguarding your account credentials. Noterious is not liable
           for unauthorized account usage.
         </p>
       </section>
@@ -29,8 +29,8 @@ export default function Page() {
       <section className="mb-6">
         <h3 className="text-lg font-medium mb-2">Content Ownership</h3>
         <p>
-          The notes and resources shared on Notes Buddy are either
-          user-contributed or owned by Notes Buddy. By uploading materials, you
+          The notes and resources shared on Noterious are either
+          user-contributed or owned by Noterious. By uploading materials, you
           grant us a non-exclusive, royalty-free license to use, display, and
           share your content with other users.
         </p>
@@ -48,7 +48,7 @@ export default function Page() {
       <section className="mb-6">
         <h3 className="text-lg font-medium mb-2">Payments and Subscriptions</h3>
         <p>
-          Notes Buddy offers free and paid subscription tiers. By subscribing to
+          Noterious offers free and paid subscription tiers. By subscribing to
           a paid plan, you agree to pay all associated fees. Subscription
           charges are non-refundable, except as required by applicable law.
         </p>
@@ -57,7 +57,7 @@ export default function Page() {
       <section className="mb-6">
         <h3 className="text-lg font-medium mb-2">Limitation of Liability</h3>
         <p>
-          Notes Buddy is not responsible for inaccuracies in user-contributed
+          Noterious is not responsible for inaccuracies in user-contributed
           content or disruptions in service. Use the platform at your own risk.
         </p>
       </section>
@@ -86,10 +86,10 @@ export default function Page() {
           at:
         </p>
         <address className="pl-4">
-          <p>Notes Buddy</p>
+          <p>Noterious</p>
           <p>39, Ram Nivas Vijay Nagar Main Road, Indore 452010</p>
 
-          <p>Email: notesbuddy@gmail.com</p>
+          <p>Email: noterious@gmail.com</p>
         </address>
       </section>
     </div>

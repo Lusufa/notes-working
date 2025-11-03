@@ -1,8 +1,8 @@
 export const siteConfig = {
-  name: "Notes Buddy",
+  name: "Noterious",
   url: "https://notesbuddy.in",
   description:
-    "Notes Buddy is your one stop solution for Notes, PYQ's, FlashCards, Quiz and More!",
+    "Noterious is your one stop solution for Notes, PYQ's, FlashCards, Quiz and More!",
   author: "Ramxcodes",
   links: {
     twitter: "https://twitter.com/ramxcodes",

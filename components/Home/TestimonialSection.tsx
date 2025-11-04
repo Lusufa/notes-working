@@ -38,7 +38,7 @@ export default function TestimonialSection() {
     {
       name: "Ishaan Chaudhary",
       username: "@Ishh_x_ok",
-      body: "Notes Buddy is perfect for smart learning.",
+      body: "Noterious is perfect for smart learning.",
       img: "/avatar/6.jpg",
     },
     {

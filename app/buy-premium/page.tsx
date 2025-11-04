@@ -224,7 +224,7 @@ export default function BuyPremiumPage() {
         key: process.env.NEXT_PUBLIC_RAZORPAY_KEY_ID,
         amount: order.amount,
         currency: "INR",
-        name: "Notes Buddy Premium",
+        name: "Noterious Premium",
         description: `Subscription for ${tier} (${year} - ${semester})`,
         order_id: order.id,
         handler: async (razorpayResponse: any) => {

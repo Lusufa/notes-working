@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     },
   },
 
-  title: "Access Blocked | Notes Buddy",
+  title: "Access Blocked | Noterious",
   description:
     "You have been blocked by an admin and cannot access this page. If you think this is a mistake, please contact us via WhatsApp.",
 
@@ -29,12 +29,12 @@ export const metadata: Metadata = {
   robots: "noindex, follow",
 
   openGraph: {
-    title: "Access Blocked | Notes Buddy",
+    title: "Access Blocked | Noterious",
     description:
       "We're sorry, but you've been blocked from accessing this page. Possible reasons include spamming, ToS violation, or suspicious activities. Contact us if this is an error.",
     url: `${process.env.NEXTAUTH_URL}/blocked`,
     type: "website",
-    siteName: "Notes Buddy",
+    siteName: "Noterious",
     images: [
       {
         url: "/OG/opengraph-blocked.png",
@@ -49,9 +49,9 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "notesbuddy.in",
     creator: "@Ramxcodes",
-    title: "Access Blocked | Notes Buddy",
+    title: "Access Blocked | Noterious",
     description:
-      "You have been blocked from accessing Notes Buddy. If you think this was a mistake, contact us via WhatsApp.",
+      "You have been blocked from accessing Noterious. If you think this was a mistake, contact us via WhatsApp.",
   },
 };
 

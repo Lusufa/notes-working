@@ -21,7 +21,7 @@ function AboutSection() {
             baseVelocity={2}
             classname="font-bold leading-[110%]  select-none"
           >
-            Study Better with Notes Buddy 😎
+            Study Better with Noterious 😎
           </ScrollBaseAnimation>
         </BlurFade>
       </div>

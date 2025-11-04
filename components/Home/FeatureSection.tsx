@@ -7,7 +7,7 @@ function FeatureSection() {
     <div className="pt-10 pb-10 lg:pt-20 lg:pb-20">
       <BlurFade delay={0.1} inView>
         <h1 className="text-[2.3rem] lg:text-[4.5rem] md:text-[4rem] leading-[1] font-bold dark:bg-gradient-to-b dark:from-[rgba(244,244,255,1)] dark:to-[rgba(181,180,207,1)] dark:text-transparent dark:bg-clip-text py-2 text-center pt-20 md:pt-0 my-4">
-          Why Notes Buddy <span className="text-white">🤔</span>?
+          Why Noterious <span className="text-white">🤔</span>?
         </h1>
       </BlurFade>
       <div className="container mx-auto px-10 py-8">
@@ -26,7 +26,7 @@ function FeatureSection() {
                     Clarity Over Complexity
                   </span>
                   <p className="text-sm text-slate-500">
-                    Notes Buddy simplifies concepts for deeper and better
+                    Noterious simplifies concepts for deeper and better
                     understanding.
                   </p>
                 </div>
@@ -103,7 +103,7 @@ function FeatureSection() {
                     Slow and Time-Consuming
                   </span>
                   <p className="text-sm text-slate-500">
-                    Notes Buddy accelerates learning with quick, focused
+                    Noterious accelerates learning with quick, focused
                     resources.
                   </p>
                 </div>

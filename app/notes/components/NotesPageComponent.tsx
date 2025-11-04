@@ -263,7 +263,7 @@ function NotesContent() {
         <div className="flex flex-col items-start gap-4 md:flex-row md:justify-between md:gap-8">
           <div className="flex-1 space-y-4">
             <h1 className="text-[2.3rem] lg:text-[4.5rem] md:text-[4rem] leading-[1] font-bold dark:bg-gradient-to-b dark:from-[rgba(244,244,255,1)] dark:to-[rgba(181,180,207,1)] dark:text-transparent dark:bg-clip-text py-2 text-center">
-              Welcome to Notes Buddy!
+              Welcome to Noterious!
             </h1>
             <p className="text-xl text-center text-muted-foreground">
               Your exams last moment notes are here!

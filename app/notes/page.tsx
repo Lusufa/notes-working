@@ -9,9 +9,9 @@ export const metadata: Metadata = {
     },
   },
 
-  title: "Notes | Notes Buddy",
+  title: "Notes | Noterious",
   description:
-    "Explore our comprehensive collection of notes for multiple subjects, semesters, and years. From B.Tech to engineering courses, find the study resources you need in one place with Notes Buddy!",
+    "Explore our comprehensive collection of notes for multiple subjects, semesters, and years. From B.Tech to engineering courses, find the study resources you need in one place with Noterious!",
 
   keywords: [
     "notesbuddy",
@@ -30,18 +30,18 @@ export const metadata: Metadata = {
   robots: "index, follow",
 
   openGraph: {
-    title: "Notes | Notes Buddy",
+    title: "Notes | Noterious",
     description:
-      "Access a wide range of notes curated by semesters and subjects. Simplify your studies with Notes Buddy’s user-friendly resources.",
+      "Access a wide range of notes curated by semesters and subjects. Simplify your studies with Noterious’s user-friendly resources.",
     url: `${process.env.NEXTAUTH_URL}/notes`,
     type: "website",
-    siteName: "Notes Buddy",
+    siteName: "Noterious",
     images: [
       {
         url: "/OG/opengraph-notes.png",
         width: 1200,
         height: 630,
-        alt: "All Notes on Notes Buddy",
+        alt: "All Notes on Noterious",
       },
     ],
   },
@@ -50,9 +50,9 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "notesbuddy.in",
     creator: "@Ramxcodes",
-    title: "Notes | Notes Buddy",
+    title: "Notes | Noterious",
     description:
-      "Browse semester-wise notes for various subjects. Prepare smarter and faster with our in-depth study materials at Notes Buddy.",
+      "Browse semester-wise notes for various subjects. Prepare smarter and faster with our in-depth study materials at Noterious.",
   },
 };
 

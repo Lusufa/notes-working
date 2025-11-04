@@ -8,10 +8,10 @@ export default function page() {
 
       <section className="mb-6">
         <h2 className="text-xl font-semibold mb-2">
-          Shipping and Delivery Policy for Notes Buddy
+          Shipping and Delivery Policy for Noterious
         </h2>
         <p>
-          At Notes Buddy, we specialize in providing premium educational
+          At Noterious, we specialize in providing premium educational
           resources tailored for students. Our goal is to deliver high-quality
           notes and resources efficiently and effectively.
         </p>
@@ -63,7 +63,7 @@ export default function page() {
         <p>
           We provide continuous updates on your order status via email. Digital
           materials can be accessed immediately after purchase through your
-          Notes Buddy account.
+          Noterious account.
         </p>
       </section>
 
@@ -83,7 +83,7 @@ export default function page() {
           please contact us via:
         </p>
         <address className="pl-4">
-          <p>Notes Buddy</p>
+          <p>Noterious</p>
           <p>39, Ram Nivas Vijay Nagar Main Road, Indore 452010</p>
 
           <p>Email: notesbuddy@gmail.com</p>

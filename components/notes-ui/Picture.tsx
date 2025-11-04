@@ -20,7 +20,7 @@ export default function Picture({
       <DialogTrigger asChild>
         <img
           src={src}
-          alt="notes buddy"
+          alt="Noterious"
           className={cn("cursor-pointer rounded-2xl", className)}
         />
       </DialogTrigger>
@@ -32,7 +32,7 @@ export default function Picture({
           >
             <X size={24} />
           </button>
-          <img src={src} alt="notes buddy" className="w-full h-auto rounded-md" />
+          <img src={src} alt="Noterious" className="w-full h-auto rounded-md" />
         </div>
       </DialogContent>
     </Dialog>

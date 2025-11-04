@@ -3,21 +3,21 @@ export const CODE_SAMPLES: Record<string, string> = {
   c: `#include <stdio.h>
   
   int main() {
-      printf("Hello, Notes Buddy!\\n");
+      printf("Hello, Noterious!\\n");
       return 0;
   }`,
   cpp: `#include <iostream>
   using namespace std;
   
   int main() {
-      cout << "Hello, Notes Buddy!" << endl;
+      cout << "Hello, Noterious!" << endl;
       return 0;
   }`,
-  python: `print("Hello, Notes Buddy!")`,
+  python: `print("Hello, Noterious!")`,
   java: `public class Main {
       public static void main(String[] args) {
-          System.out.println("Hello, Notes Buddy!");
+          System.out.println("Hello, Noterious!");
       }
   }`,
-  javascript: `console.log("Hello, Notes Buddy!");`,
+  javascript: `console.log("Hello, Noterious!");`,
 };

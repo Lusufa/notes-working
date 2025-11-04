@@ -19,7 +19,7 @@ function FooterSection() {
               <div className="flex-col flex justify-center">
                 <Image src="/logo.png" width={120} height={120} alt="logo" />
                 <article className="py-2  2xl:w-80 w-64  space-y-1">
-                  <h1 className="newFont text-3xl font-bold">Notes buddy</h1>
+                  <h1 className="newFont text-3xl font-bold">Noterious</h1>
                   <p className="text-sm  leading-[120%] ">
                     Find the notes you need to ace your exams. Share with
                     friends, explore flashcards, PYQs, and one-shots to level up
@@ -72,7 +72,7 @@ function FooterSection() {
           <BlurFade delay={0.25} inView>
             <div className="lg:flex hidden">
               <AnimatedText
-                text="NOTES BUDDY"
+                text="Noterious"
                 className="2xl:text-[11rem] text-[12vw] select-none"
               />
             </div>

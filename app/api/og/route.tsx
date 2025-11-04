@@ -21,7 +21,7 @@ export async function GET(req: NextRequest) {
     const { searchParams } = req.nextUrl;
     const title = searchParams.get("title");
     if (!title) {
-      return new Response("Notes Buddy", { status: 500 });
+      return new Response("Noterious", { status: 500 });
     }
     const heading =
       title.length > 140 ? `${title.substring(0, 140)}...` : title;
@@ -37,7 +37,7 @@ export async function GET(req: NextRequest) {
                 alt="Logo"
                 tw="w-10 h-10"
               />
-              <p tw="ml-4 font-bold text-3xl">Notes Buddy</p>
+              <p tw="ml-4 font-bold text-3xl">Noterious</p>
             </div>
             <p tw="mt-4 text-xl text-gray-700">{siteConfig.description}</p>
           </div>

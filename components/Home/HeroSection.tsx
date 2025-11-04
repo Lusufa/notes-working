@@ -17,7 +17,7 @@ export default function HeroSection() {
         <BlurFade delay={0.1} inView>
           <AnimatedShinyText className="inline-flex items-center justify-center px-4 py-1 transition ease-out hover:text-neutral-600 hover:duration-300 hover:dark:text-neutral-400 select-none border rounded-full">
             <span className="text-xs md:text-base">
-              ✨ Welcome to Notes buddy
+              ✨ Welcome to Noterious
             </span>
             <ArrowRightIcon className="ml-1 size-3 transition-transform duration-300 ease-in-out group-hover:translate-x-0.5" />
           </AnimatedShinyText>
@@ -53,7 +53,7 @@ export default function HeroSection() {
         </BlurFade>
         <BlurFade delay={0.2} inView>
           <div className="text-[1rem] lg:text-[1.5rem]">
-            Notes Buddy is your one stop solution for{" "}
+            Noterious is your one stop solution for{" "}
             <HeroSlideTextEffect interval={1.3} className="font-bold">
               {["Notes", "Flashcards", "One-Shots"]}
             </HeroSlideTextEffect>

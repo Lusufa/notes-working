@@ -14,7 +14,7 @@ export default function page() {
           committed to providing you with the best experience possible.
         </p>
         <address className="pl-4">
-          <p>Notes Buddy</p>
+          <p>Noterious</p>
 
           <p>Email: notesbuddy@gmail.com</p>
           <p>Scheme 39, Vijay Nagar, Indore</p>

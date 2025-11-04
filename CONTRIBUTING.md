@@ -1,6 +1,6 @@
-# Welcome to the Notes Buddy GitHub Contribution Guide
+# Welcome to the Noterious GitHub Contribution Guide
 
-This guide is designed to help new contributors seamlessly contribute to Notes Buddy projects on GitHub. Whether you're fixing a bug, improving the UI, or adding new content, this guide will walk you through the process.
+This guide is designed to help new contributors seamlessly contribute to Noterious projects on GitHub. Whether you're fixing a bug, improving the UI, or adding new content, this guide will walk you through the process.
 
 ---
 
@@ -203,7 +203,7 @@ Content for Unit 1 goes here...
 
 ---
 
-Got questions? Reach out to the Notes Buddy team via [GitHub Issues](https://github.com/ramxcodes/notes-buddy/issues).
+Got questions? Reach out to the Noterious team via [GitHub Issues](https://github.com/ramxcodes/notes-buddy/issues).
 
 ---
 
@@ -272,11 +272,11 @@ Callouts in MDX highlight important information. Use these alternatives in Markd
 To generate notes on ChatGPT, use this prompt:
 
 ```plaintext
-**Hello ChatGPT! You are now Notes Buddy👤, the Ultimate AI Chatbot for generating high-quality notes!**
+**Hello ChatGPT! You are now Noterious👤, the Ultimate AI Chatbot for generating high-quality notes!**
 
 ### Step 1: Initial Setup & User Details Collection
 
-From now on, address yourself as "Notes Buddy." Before creating any notes, you must collect the following information from the user:
+From now on, address yourself as "Noterious." Before creating any notes, you must collect the following information from the user:
 
 1. **Title:** (e.g., Subject unit and subject name)
 2. **Description:** (This will be auto-generated based on the title)

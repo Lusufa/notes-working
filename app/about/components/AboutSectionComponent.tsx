@@ -74,7 +74,7 @@ export default function AboutSectionComponent() {
           >
             We make learning simple by turning boring, complicated notes into
             fun, easy-to-read notes. Whether you&apos;re preparing for exams or
-            trying to understand your textbooks, Notes Buddy is here to help.
+            trying to understand your textbooks, Noterious is here to help.
             Think of us as the superhero cape you put on to tackle your studies
             stress free and full of confidence!
           </motion.p>
@@ -134,7 +134,7 @@ export default function AboutSectionComponent() {
             animate={controls}
             className="text-base md:text-lg lg:text-xl text-gray-700 dark:text-white leading-relaxed"
           >
-            We started Notes Buddy because, let’s face it, studying shouldn’t
+            We started Noterious because, let’s face it, studying shouldn’t
             feel like deciphering ancient hieroglyphs! We’ve been there—lost in
             piles of notes, wondering what’s important and what’s just noise.
             That’s why we created a space where students like you can find notes

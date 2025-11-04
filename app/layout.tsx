@@ -68,11 +68,11 @@ export const metadata: Metadata = {
     },
   },
   title:
-    "Notes Buddy - Your one stop solution for Notes, PYQ's, FlashCards, Quiz and More!",
+    "Noterious - Your one stop solution for Notes, PYQ's, FlashCards, Quiz and More!",
   description:
-    "Discover the power of efficient learning with Notes Buddy, the one-stop solution for comprehensive notes, previous year questions (PYQs), flashcards, quizzes, and more! Rated by 100+ students from 100+ colleges, Notes Buddy simplifies complex concepts, provides AI-powered answers, and organizes resources by year and semester for fast, smart, and effective exam preparation. Whether you're in your first year or final year, find all the resources you need to excel in your studies. Join the smarter way to learn!",
+    "Discover the power of efficient learning with Noterious, the one-stop solution for comprehensive notes, previous year questions (PYQs), flashcards, quizzes, and more! Rated by 100+ students from 100+ colleges, Noterious simplifies complex concepts, provides AI-powered answers, and organizes resources by year and semester for fast, smart, and effective exam preparation. Whether you're in your first year or final year, find all the resources you need to excel in your studies. Join the smarter way to learn!",
   keywords: [
-    "Notes Buddy",
+    "Noterious",
     "Study smarter",
     "Engineering notes",
     "B.Tech notes",
@@ -108,17 +108,17 @@ export const metadata: Metadata = {
   robots: "index, follow",
   openGraph: {
     title:
-      "Notes Buddy - Your one stop solution for Notes, PYQ's, FlashCards, Quiz and More!",
+      "Noterious - Your one stop solution for Notes, PYQ's, FlashCards, Quiz and More!",
     description:
-      "Notes Buddy, the one-stop solution for comprehensive notes, previous year questions (PYQs), flashcards, quizzes, and more! Rated by 100+ students from 100+ colleges, Notes Buddy simplifies complex concepts, provides AI-powered answers, and organizes resources by year and semester for fast, smart, and effective exam preparation. Whether you're in your first year or final year, find all the resources you need to excel in your studies. Join the smarter way to learn!",
+      "Noterious, the one-stop solution for comprehensive notes, previous year questions (PYQs), flashcards, quizzes, and more! Rated by 100+ students from 100+ colleges, Noterious simplifies complex concepts, provides AI-powered answers, and organizes resources by year and semester for fast, smart, and effective exam preparation. Whether you're in your first year or final year, find all the resources you need to excel in your studies. Join the smarter way to learn!",
     url: process.env.NEXT_PUBLIC_APP_URL ?? siteConfig.url,
     type: "website",
     images: "/og-image.png",
-    siteName: "Notes Buddy",
+    siteName: "Noterious",
   },
   twitter: {
     card: "summary_large_image",
-    site: "Notes Buddy",
+    site: "Noterious",
     creator: "@Ramxcodes",
   },
 };

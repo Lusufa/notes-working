@@ -9,12 +9,12 @@ export const metadata: Metadata = {
     },
   },
 
-  title: "Contributors | Notes Buddy",
+  title: "Contributors | Noterious",
   description:
-    "Meet the amazing team behind Notes Buddy—full-stack developers, AI/ML experts, and web creators contributing their skills to make studying smarter and easier.",
+    "Meet the amazing team behind Noterious—full-stack developers, AI/ML experts, and web creators contributing their skills to make studying smarter and easier.",
 
   keywords: [
-    "Notes Buddy",
+    "Noterious",
     "Contributors",
     "Full Stack Web Developer",
     "AI/ML Developer",
@@ -29,18 +29,18 @@ export const metadata: Metadata = {
   robots: "index, follow",
 
   openGraph: {
-    title: "Contributors | Notes Buddy",
+    title: "Contributors | Noterious",
     description:
-      "Discover the talented individuals behind Notes Buddy. Learn about each contributor’s role and how they’ve helped shape this all-in-one study platform.",
+      "Discover the talented individuals behind Noterious. Learn about each contributor’s role and how they’ve helped shape this all-in-one study platform.",
     url: `${process.env.NEXTAUTH_URL}/contributors`,
     type: "website",
-    siteName: "Notes Buddy",
+    siteName: "Noterious",
     images: [
       {
         url: "/OG/opengraph-contributors.png",
         width: 1200,
         height: 630,
-        alt: "Notes Buddy Contributors Page",
+        alt: "Noterious Contributors Page",
       },
     ],
   },
@@ -49,9 +49,9 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "notesbuddy.in",
     creator: "@Ramxcodes",
-    title: "Contributors | Notes Buddy",
+    title: "Contributors | Noterious",
     description:
-      "Get to know the developers, AI/ML experts, and web creators who’ve made Notes Buddy a reality. Check out their unique contributions!",
+      "Get to know the developers, AI/ML experts, and web creators who’ve made Noterious a reality. Check out their unique contributions!",
   },
 };
 

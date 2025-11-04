@@ -12,9 +12,9 @@ export const metadata: Metadata = {
   },
 
   // Title & Description
-  title: "Report Note | Notes Buddy",
+  title: "Report Note | Noterious",
   description:
-    "Encountered an issue with a note? Use this form to report a note on Notes Buddy. Provide the note URL, select an issue, and help us keep our resources accurate and up-to-date.",
+    "Encountered an issue with a note? Use this form to report a note on Noterious. Provide the note URL, select an issue, and help us keep our resources accurate and up-to-date.",
 
   // Relevant keywords
   keywords: [
@@ -33,18 +33,18 @@ export const metadata: Metadata = {
   robots: "index, follow",
 
   openGraph: {
-    title: "Report Note | Notes Buddy",
+    title: "Report Note | Noterious",
     description:
-      "Help us maintain quality by reporting any issues with Notes Buddy's resources. Provide details about the note and select the type of problem encountered.",
+      "Help us maintain quality by reporting any issues with Noterious's resources. Provide details about the note and select the type of problem encountered.",
     url: `${process.env.NEXTAUTH_URL}/report-note`,
     type: "website",
-    siteName: "Notes Buddy",
+    siteName: "Noterious",
     images: [
       {
         url: "/OG/opengraph-report.png",
         width: 1200,
         height: 630,
-        alt: "Report a Note on Notes Buddy",
+        alt: "Report a Note on Noterious",
       },
     ],
   },
@@ -53,9 +53,9 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "notesbuddy.in",
     creator: "@Ramxcodes",
-    title: "Report Note | Notes Buddy",
+    title: "Report Note | Noterious",
     description:
-      "Use this form to report any issues with a note on Notes Buddy. Submit details to help us promptly resolve inaccuracies or policy violations.",
+      "Use this form to report any issues with a note on Noterious. Submit details to help us promptly resolve inaccuracies or policy violations.",
   },
 };
 

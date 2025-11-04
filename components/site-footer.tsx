@@ -8,7 +8,7 @@ export function SiteFooter() {
       <hr className="opacity-100 dark:opacity-35" />
       <div className="mb-6 mt-14 flex justify-between items-center mx-6 md:mx-16 lg:mx-32 flex-col md:flex-row font-wotfard">
         <div className="opacity-50 hidden lg:block">
-          &#169; Notes Buddy 2025
+          &#169; Noterious 2025
         </div>
         <div className="flex items-center gap-2">
           <Link

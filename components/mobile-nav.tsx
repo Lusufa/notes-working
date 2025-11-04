@@ -29,7 +29,7 @@ export function MobileNav() {
           href="/"
           className="flex items-center justify-center"
         >
-          <img src="/logo.png" alt="notes buddy logo" className="size-6" />
+          <img src="/logo.png" alt="Noterious logo" className="size-6" />
           <span className="font-bold font-wotfard">{siteConfig.name}</span>
         </MobileLink>
         <div className="flex flex-col gap-3 mt-3 font-wotfard">

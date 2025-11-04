@@ -11,14 +11,14 @@ export const metadata: Metadata = {
   },
 
   // SEO Titles and Descriptions
-  title: "About Us | Notes Buddy – Your Ultimate Study Partner",
+  title: "About Us | Noterious – Your Ultimate Study Partner",
   description:
-    "Learn about Notes Buddy, the one-stop solution for simplified notes, PYQs, flashcards, quizzes, and more. Discover how we empower students to study smarter, not harder!",
+    "Learn about Noterious, the one-stop solution for simplified notes, PYQs, flashcards, quizzes, and more. Discover how we empower students to study smarter, not harder!",
 
   // Targeted Keywords
   keywords: [
-    "Notes Buddy",
-    "About Notes Buddy",
+    "Noterious",
+    "About Noterious",
     "Study smarter",
     "Engineering notes",
     "B.Tech notes",
@@ -38,18 +38,18 @@ export const metadata: Metadata = {
 
   // Open Graph for social sharing
   openGraph: {
-    title: "About Us | Notes Buddy – Your Ultimate Study Partner",
+    title: "About Us | Noterious – Your Ultimate Study Partner",
     description:
-      "Discover how Notes Buddy helps students with easy-to-read notes, PYQs, flashcards, quizzes, and more—everything you need to ace your exams.",
+      "Discover how Noterious helps students with easy-to-read notes, PYQs, flashcards, quizzes, and more—everything you need to ace your exams.",
     url: `${process.env.NEXTAUTH_URL}/about`,
     type: "website",
-    siteName: "Notes Buddy",
+    siteName: "Noterious",
     images: [
       {
         url: "/OG/opengraph-about.png",
         width: 1200,
         height: 630,
-        alt: "Notes Buddy About Page",
+        alt: "Noterious About Page",
       },
     ],
   },
@@ -60,9 +60,9 @@ export const metadata: Metadata = {
     site: "notesbuddy.in",
     creator: "@Ramxcodes",
     // Optionally override title/description
-    title: "About Us | Notes Buddy – Your Ultimate Study Partner",
+    title: "About Us | Noterious – Your Ultimate Study Partner",
     description:
-      "Get to know Notes Buddy, the all-in-one solution for simplified studying. Find out why hundreds of students trust us for notes, PYQs, and flashcards!",
+      "Get to know Noterious, the all-in-one solution for simplified studying. Find out why hundreds of students trust us for notes, PYQs, and flashcards!",
   },
 };
 

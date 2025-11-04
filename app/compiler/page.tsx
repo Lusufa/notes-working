@@ -9,9 +9,9 @@ export const metadata: Metadata = {
     },
   },
 
-  title: "Online Compiler | Notes Buddy",
+  title: "Online Compiler | Noterious",
   description:
-    "Compile and run your code in C, C++, Java, JavaScript, and Python with Notes Buddy's versatile online compiler. Practice coding, debug errors, and learn programming interactively!",
+    "Compile and run your code in C, C++, Java, JavaScript, and Python with Noterious's versatile online compiler. Practice coding, debug errors, and learn programming interactively!",
 
   keywords: [
     "online compiler",
@@ -26,26 +26,26 @@ export const metadata: Metadata = {
     "real-time code execution",
     "coding practice",
     "learn programming",
-    "Notes Buddy",
+    "Noterious",
     "Ramxcodes",
   ],
 
   robots: "index, follow",
 
   openGraph: {
-    title: "Online Compiler | Notes Buddy",
+    title: "Online Compiler | Noterious",
     description:
-      "Run, debug, and collaborate on code in multiple languages—C, C++, Java, JavaScript, and Python—all within Notes Buddy’s user-friendly online compiler.",
+      "Run, debug, and collaborate on code in multiple languages—C, C++, Java, JavaScript, and Python—all within Noterious’s user-friendly online compiler.",
     url: `${process.env.NEXTAUTH_URL}/compiler`,
     type: "website",
-    siteName: "Notes Buddy",
+    siteName: "Noterious",
 
     images: [
       {
         url: "/OG/opengraph-compiler.png",
         width: 1200,
         height: 630,
-        alt: "Notes Buddy Online Compiler Preview",
+        alt: "Noterious Online Compiler Preview",
       },
     ],
   },
@@ -54,7 +54,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "notesbuddy.in",
     creator: "@Ramxcodes",
-    title: "Online Compiler | Notes Buddy",
+    title: "Online Compiler | Noterious",
     description:
       "Compile and run code in C, C++, Java, JavaScript, and Python instantly. Perfect for students and professionals looking to practice and test code online.",
   },

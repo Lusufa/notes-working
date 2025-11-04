@@ -9,9 +9,9 @@ export const metadata: Metadata = {
     },
   },
 
-  title: "Sign In | Notes Buddy",
+  title: "Sign In | Noterious",
   description:
-    "Access your personalized notes, flashcards, quizzes, and more by signing in to your Notes Buddy account. Join the smarter way to learn!",
+    "Access your personalized notes, flashcards, quizzes, and more by signing in to your Noterious account. Join the smarter way to learn!",
 
   keywords: [
     "notesbuddy",
@@ -29,18 +29,18 @@ export const metadata: Metadata = {
   robots: "index, follow",
 
   openGraph: {
-    title: "Sign In | Notes Buddy",
+    title: "Sign In | Noterious",
     description:
-      "Log in to your Notes Buddy account to access your notes, flashcards, and more. Simplify your study routine!",
+      "Log in to your Noterious account to access your notes, flashcards, and more. Simplify your study routine!",
     url: `${process.env.NEXTAUTH_URL}/request-notes`,
     type: "website",
-    siteName: "Notes Buddy",
+    siteName: "Noterious",
     images: [
       {
         url: "/OG/opengraph-sign-in.png", 
         width: 1200,
         height: 630,
-        alt: "Sign In to Notes Buddy",
+        alt: "Sign In to Noterious",
       },
     ],
   },
@@ -49,9 +49,9 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "notesbuddy.in",
     creator: "@Ramxcodes",
-    title: "Sign In | Notes Buddy",
+    title: "Sign In | Noterious",
     description:
-      "Sign in to Notes Buddy for a personalized study experience. Manage your notes, quizzes, and flashcards in one place.",
+      "Sign in to Noterious for a personalized study experience. Manage your notes, quizzes, and flashcards in one place.",
   },
 };
 

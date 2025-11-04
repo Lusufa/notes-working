@@ -4,14 +4,20 @@ import { MongoDBAdapter } from "@next-auth/mongodb-adapter";
 import clientPromise from "@/lib/db";
 
 export const authOptions: NextAuthOptions = {
-  secret: process.env.AUTH_SECRET,
+  // secret: process.env.AUTH_SECRET,
+  secret: process.env.NEXTAUTH_SECRET,
   adapter: MongoDBAdapter(clientPromise),
   providers: [
+    // GoogleProvider({
+    //   clientId: process.env.AUTH_GOOGLE_ID as string,
+    //   clientSecret: process.env.AUTH_GOOGLE_SECRET as string,
+    //   allowDangerousEmailAccountLinking: true,
+    // }),
     GoogleProvider({
-      clientId: process.env.AUTH_GOOGLE_ID as string,
-      clientSecret: process.env.AUTH_GOOGLE_SECRET as string,
-      allowDangerousEmailAccountLinking: true,
-    }),
+  clientId: process.env.GOOGLE_CLIENT_ID as string,
+  clientSecret: process.env.GOOGLE_CLIENT_SECRET as string,
+  allowDangerousEmailAccountLinking: true,
+}),
   ],
   session: {
     strategy: "jwt",
